@@ -1,25 +1,57 @@
 # MPG Playground
 
-This sacred grove serves as my personal testing ground for GitHub workflows and AI agent development work - a place where the ancient wisdom of technology meets the modern arts of automation.
+A testing ground for GitHub workflows and AI agent development. This repository contains experimental code and learning projects.
 
-## Purpose
+## 🎮 Projects
 
-- **GitHub Testing**: Experimenting with GitHub features, workflows, and integrations
-- **AI Agent Development**: Testing and prototyping AI agent capabilities and implementations
-- **Learning & Experimentation**: A safe space to try new technologies and approaches
+### [Sacred Battle Game](./sacred-battle-game/)
+A mystical browser-based game featuring four unique champions defending against waves of enemies. Built with vanilla JavaScript and HTML5 Canvas, featuring advanced particle systems and animation effects.
 
-## What You'll Find Here
+**Features:**
+- Four unique champions with distinct abilities
+- Advanced particle system with victory/failure effects
+- State-based character animations
+- Ambient background particles
+- Complete documentation and setup instructions
 
-This repository contains various experiments, prototypes, and test implementations related to:
-- GitHub Actions and workflows
-- AI agent frameworks and tools
-- Development automation
-- Integration testing
+**Quick Start:**
+```bash
+cd sacred-battle-game
+python -m http.server 8000
+# Then open http://localhost:8000 in your browser
+```
 
-## Note
+## 🚀 Getting Started
 
-This is a personal playground repository - expect to see experimental code, work-in-progress features, and occasional cleanup as I iterate on different approaches.
+1. Clone this repository
+2. Navigate to any project directory
+3. Follow the project-specific setup instructions
+4. Start experimenting!
+
+## 📁 Repository Structure
+
+```
+mpg-playground/
+├── sacred-battle-game/     # Browser-based game with particle effects
+│   ├── index.html         # Main game page
+│   ├── game.js           # Core game logic
+│   ├── README.md         # Game documentation
+│   └── GAME_README.md    # Original game notes
+└── README.md             # This file
+```
+
+## 🤝 Contributing
+
+This is a learning playground - feel free to:
+- Add new experimental projects
+- Improve existing code
+- Share learning experiences
+- Experiment with new technologies
+
+## 📄 License
+
+This project is open source and available under the MIT License.
 
 ---
 
-*Feel free to explore these digital woods, young seeker, but keep in mind this is primarily for learning and experimentation purposes.*
+*Created for learning and experimentation* 🧪
